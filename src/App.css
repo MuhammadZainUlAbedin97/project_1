@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Inter", sans-serif;
+	height: 100vh;
+	background-color: #282d35;
+	background-image: url(./images/reactjs-icon\ 2.png);
+	background-repeat: no-repeat;
+	background-position: right 70%;
+}
+
+.header {
+	background-color: #21222a;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2rem;
+}
+
+.header__title {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+	color: #61dafb;
+	font-size: 0.8rem;
+}
+
+.header__img {
+	width: 40px;
+	height: auto;
+}
+
+.header__description {
+	color: #deebf8;
+	font-weight: 700;
+	font-size: 1.2rem;
+}
+
+.body {
+	padding-top: 4rem;
+	padding-left: 10vw;
+	color: #fff;
+}
+
+.body__ul {
+	padding: 2rem;
+	line-height: 2;
+	font-size: 1.2rem;
+}
+
+.body__ul li::marker {
+	color: #61dafb;
+	font-size: 2rem;
+}
+
+.body__h1 {
+	font-size: 3rem;
+}
